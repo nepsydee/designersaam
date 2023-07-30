@@ -1,0 +1,1 @@
+Contains all files of html, css and javascript, if you want to add this template then give credit to SamArt. Copyright © 2023 by SaamArt.
