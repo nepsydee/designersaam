@@ -41,3 +41,88 @@ form.addEventListener("submit", (e) => {
 
 const audio = new Audio();
 audio.src = "./aca.mp3";
+
+const sound = new Audio();
+sound.src = "./h.mp3";
+
+// scroll reveal
+
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  delay: 80,
+});
+
+ScrollReveal().reveal("#header", { delay: 200 });
+
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  delay: 80,
+});
+
+ScrollReveal().reveal("#about", { delay: 200 });
+
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  delay: 80,
+});
+
+ScrollReveal().reveal("#services", { delay: 200 });
+
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  delay: 80,
+});
+
+ScrollReveal().reveal("#services", { delay: 200 });
+
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  delay: 80,
+});
+
+ScrollReveal().reveal("#portfolio", { delay: 200 });
+
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  delay: 80,
+});
+
+ScrollReveal().reveal(".work", { delay: 200 });
+
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  delay: 80,
+});
+
+ScrollReveal().reveal("#contact", { delay: 200 });
+
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  delay: 80,
+});
+
+ScrollReveal().reveal(".footer", { delay: 200 });
+
+// typed java
+
+const typed = new Typed(".multiple-text", {
+  strings: [
+    "Graphics Designer",
+    "Web Developer",
+    "Blogger",
+    "UI/UX Designer",
+    "Script Writer",
+  ],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true,
+});

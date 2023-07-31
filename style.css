@@ -30,7 +30,7 @@ nav {
 }
 .logo {
   left: 10px;
-  width: 100px;
+  width: 70px;
   cursor: pointer;
 }
 nav ul li {
@@ -49,7 +49,7 @@ nav ul li a::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #aa00ff;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -66,8 +66,9 @@ nav ul li a:hover::after {
   font-size: 60px;
   margin-top: 20px;
 }
+
 .header-text span {
-  color: #ff004f;
+  color: #aa00ff;
 }
 
 /* -----------------ABOUT---------------- */
@@ -85,9 +86,9 @@ nav ul li a:hover::after {
 
 .about-col-1 {
   flex-basis: 35%;
-  width: 100%;
+  width: 150%;
   margin-bottom: 50px;
-  height: 20%;
+  height: 30%;
 }
 
 .about-col-1 img {
@@ -123,7 +124,7 @@ nav ul li a:hover::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #aa00ff;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -137,7 +138,7 @@ nav ul li a:hover::after {
   margin: 10px 0;
 }
 .tab-contents ul li span {
-  color: #ff004f;
+  color: #aa00ff;
   font-size: 14px;
 }
 .tab-contents {
@@ -183,7 +184,7 @@ nav ul li a:hover::after {
   display: inline-block;
 }
 .services-list div:hover {
-  background: #ff004f;
+  background: #aa00ff;
   transform: translateY(-10px);
 }
 
@@ -212,7 +213,7 @@ nav ul li a:hover::after {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), #ff004f);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), #aa00ff);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -233,7 +234,7 @@ nav ul li a:hover::after {
 }
 .layer a {
   margin-top: 15px;
-  color: #ff004f;
+  color: #aa00ff;
   text-decoration: none;
   font-size: 17px;
   line-height: 45px;
@@ -254,7 +255,7 @@ nav ul li a:hover::after {
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid #aa00ff;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -263,7 +264,8 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-  background: #ff004f;
+  background: #aa00ff;
+  box-shadow: 0 0 1rem #aa00ff;
 }
 
 /* -----------------CONTACT----------------------- */
@@ -279,7 +281,7 @@ nav ul li a:hover::after {
   margin-top: 30px;
 }
 .contact-left p i {
-  color: #ff004f;
+  color: #aa00ff;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -295,13 +297,13 @@ nav ul li a:hover::after {
   transition: transform 0.5s;
 }
 .social-icons a:hover {
-  color: #ff004f;
+  color: #aa00ff;
   transform: translateY(-5px);
 }
 
 .btn.btn2 {
   display: inline-block;
-  background: #ff004f;
+  background: #aa00ff;
 }
 
 .contact-right form {
@@ -326,6 +328,13 @@ form .btn2 {
   margin-top: 20px;
   cursor: pointer;
 }
+.btn.btn2 {
+  transition: 0.3s;
+}
+.btn.btn2:hover {
+  box-shadow: 0 0 1rem #aa00ff;
+}
+
 .copyright {
   width: 100%;
   margin-bottom: 100%;
@@ -336,7 +345,7 @@ form .btn2 {
   margin-top: 20px;
 }
 .copyright i {
-  color: #ff004f;
+  color: #aa00ff;
 }
 
 /* --------------css for mobile----------------- */
@@ -345,6 +354,10 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 600px) {
+  .logo {
+    width: 60px;
+  }
+
   #header {
     background-image: url(images/phone-background.png);
   }
@@ -359,7 +372,7 @@ nav .fa-solid {
     display: block;
   }
   nav ul {
-    background: #ff004f;
+    background: #aa00ff;
     position: fixed;
     top: 0;
     right: -200px;
@@ -390,6 +403,8 @@ nav .fa-solid {
   }
   .about-col-1 {
     margin-bottom: 30px;
+    margin-left: 125px;
+    width: 150px;
   }
   .about-col-2 {
     font-size: 14px;
@@ -408,7 +423,7 @@ nav .fa-solid {
 }
 
 #msg {
-  color: #ff004f;
+  color: #aa00ff;
   margin-top: -40px;
   display: block;
 }
@@ -431,7 +446,7 @@ nav .fa-solid {
 }
 
 .footer-text a i {
-  color: #ff004f;
+  color: #aa00ff;
 }
 
 .footer-icon a {
@@ -440,18 +455,22 @@ nav .fa-solid {
   justify-content: center;
   align-items: center;
   padding: 0.8rem;
-  background: #ff004f;
+  background: #aa00ff;
   border-radius: 0.8rem;
   transition: 0.5s;
 }
 
 .footer-icon a:hover {
-  box-shadow: 0 0 1rem #ff004f;
+  box-shadow: 0 0 1rem #aa00ff;
 }
 
 @media (max-width: 991px) {
   .footer {
     padding: 2rem 3%;
+
+    .logo {
+      width: 90px;
+    }
   }
 }
 @media (max-width: 365px) {
@@ -462,10 +481,24 @@ nav .fa-solid {
     text-align: center;
     margin-top: 2rem;
   }
+
+  .logo {
+    width: 30px;
+  }
 }
 
 .footer-icon a i {
   font-size: 1rem;
   color: azure;
   text-decoration-line: none;
+}
+
+/* span---------------- */
+
+.colors {
+  color: #aa00ff;
+}
+
+.footer-text i {
+  cursor: pointer;
 }
