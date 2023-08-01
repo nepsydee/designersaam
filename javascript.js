@@ -48,7 +48,7 @@ sound.src = "./h.mp3";
 // scroll reveal
 
 ScrollReveal({
-  reset: true,
+ 
   duration: 2000,
   delay: 80,
 });
@@ -56,7 +56,7 @@ ScrollReveal({
 ScrollReveal().reveal("#header", { delay: 200 });
 
 ScrollReveal({
-  reset: true,
+ 
   duration: 2000,
   delay: 80,
 });
@@ -64,7 +64,7 @@ ScrollReveal({
 ScrollReveal().reveal("#about", { delay: 200 });
 
 ScrollReveal({
-  reset: true,
+  
   duration: 2000,
   delay: 80,
 });
@@ -72,7 +72,6 @@ ScrollReveal({
 ScrollReveal().reveal("#services", { delay: 200 });
 
 ScrollReveal({
-  reset: true,
   duration: 2000,
   delay: 80,
 });
@@ -80,7 +79,6 @@ ScrollReveal({
 ScrollReveal().reveal("#services", { delay: 200 });
 
 ScrollReveal({
-  reset: true,
   duration: 2000,
   delay: 80,
 });
@@ -88,7 +86,6 @@ ScrollReveal({
 ScrollReveal().reveal("#portfolio", { delay: 200 });
 
 ScrollReveal({
-  reset: true,
   duration: 2000,
   delay: 80,
 });
@@ -96,7 +93,7 @@ ScrollReveal({
 ScrollReveal().reveal(".work", { delay: 200 });
 
 ScrollReveal({
-  reset: true,
+  
   duration: 2000,
   delay: 80,
 });
@@ -104,7 +101,7 @@ ScrollReveal({
 ScrollReveal().reveal("#contact", { delay: 200 });
 
 ScrollReveal({
-  reset: true,
+
   duration: 2000,
   delay: 80,
 });
