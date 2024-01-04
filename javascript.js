@@ -40,10 +40,10 @@ form.addEventListener("submit", (e) => {
 // ----------------------sound------------------
 
 const audio = new Audio();
-audio.src = "./aca.mp3";
+audio.src = "./speak.mp3";
 
 const sound = new Audio();
-sound.src = "./h.mp3";
+sound.src = "./music.mp3";
 
 // scroll reveal
 
@@ -112,11 +112,11 @@ ScrollReveal().reveal(".footer", { delay: 200 });
 
 const typed = new Typed(".multiple-text", {
   strings: [
-    "Graphics Designer",
-    "Web Developer",
+    "Graphic Designer",
+    "Video Editor",
     "Blogger",
     "UI/UX Designer",
-    "Script Writer",
+    "Content Creator",
   ],
   typeSpeed: 100,
   backSpeed: 100,

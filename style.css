@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
+:root{
+   --purple: #9900ff;
+  --black: #000;
+  --white: #fff;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   background: black;
-  color: #fff;
+  color: var(--white);
 }
 #header {
   width: 100%;
@@ -22,6 +31,7 @@ body {
 .container {
   padding: 10px 10%;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -39,7 +49,7 @@ nav ul li {
   margin: 10px 20px;
 }
 nav ul li a {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -49,7 +59,7 @@ nav ul li a::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #aa00ff;
+  background: var(--purple);
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -74,7 +84,7 @@ nav ul li a:hover::after {
 
 
 .header-text span {
-  color: #aa00ff;
+  color: var(--purple);
 }
 
 /* -----------------ABOUT---------------- */
@@ -94,23 +104,25 @@ nav ul li a:hover::after {
   flex-basis: 35%;
   width: 150%;
   margin-bottom: 50px;
-  height: 30%;
+  height: 40%;
 }
 
 .about-col-1 img {
   width: 120%;
   height: 100%;
   border-radius: 15px;
-  margin-left: -80px;
-  margin-top: -110px;
+  margin-left: -100px;
+  margin-top: -140px;
 }
 .about-col-2 {
   flex-basis: 60%;
+  margin-left: 40px;
+  margin-top: 10px;
 }
 .sub-title {
   font-size: 60px;
   font-weight: 600;
-  color: #fff;
+  color: var(--white);
 }
 
 .tab-titles {
@@ -130,7 +142,7 @@ nav ul li a:hover::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #aa00ff;
+  background: var(--purple);
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -144,7 +156,7 @@ nav ul li a:hover::after {
   margin: 10px 0;
 }
 .tab-contents ul li span {
-  color: #aa00ff;
+  color: var(--purple);
   font-size: 14px;
 }
 .tab-contents {
@@ -184,13 +196,13 @@ nav ul li a:hover::after {
 }
 .services-list div a {
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
   font-size: 12px;
   margin-top: 20px;
   display: inline-block;
 }
 .services-list div:hover {
-  background: #aa00ff;
+  background: var(--purple);
   transform: translateY(-10px);
 }
 
@@ -219,7 +231,7 @@ nav ul li a:hover::after {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), #aa00ff);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), var(--purple));
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -240,11 +252,11 @@ nav ul li a:hover::after {
 }
 .layer a {
   margin-top: 15px;
-  color: #aa00ff;
+  color: var(--purple);
   text-decoration: none;
   font-size: 17px;
   line-height: 45px;
-  background: #fff;
+  background: var(--white);
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -261,7 +273,7 @@ nav ul li a:hover::after {
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #aa00ff;
+  border: 1px solid var(--purple);
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -270,8 +282,8 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-  background: #aa00ff;
-  box-shadow: 0 0 1rem #aa00ff;
+  background: var(--purple);
+  box-shadow: 0 0 1rem var(--purple);
 }
 
 /* -----------------CONTACT----------------------- */
@@ -287,7 +299,7 @@ nav ul li a:hover::after {
   margin-top: 30px;
 }
 .contact-left p i {
-  color: #aa00ff;
+  color: var(--purple);
   margin-right: 15px;
   font-size: 25px;
 }
@@ -303,13 +315,13 @@ nav ul li a:hover::after {
   transition: transform 0.5s;
 }
 .social-icons a:hover {
-  color: #aa00ff;
+  color: var(--purple);
   transform: translateY(-5px);
 }
 
 .btn.btn2 {
   display: inline-block;
-  background: #aa00ff;
+  background: var(--purple);
 }
 
 .contact-right form {
@@ -323,7 +335,7 @@ form textarea {
   background: #262626;
   padding: 15px;
   margin: 15px 0;
-  color: #fff;
+  color: var(--white);
   font-size: 18px;
   border-radius: 6px;
   transition: transform 0.5s;
@@ -338,7 +350,7 @@ form .btn2 {
   transition: 0.3s;
 }
 .btn.btn2:hover {
-  box-shadow: 0 0 1rem #aa00ff;
+  box-shadow: 0 0 1rem var(--purple);
 }
 
 .copyright {
@@ -351,7 +363,7 @@ form .btn2 {
   margin-top: 20px;
 }
 .copyright i {
-  color: #aa00ff;
+  color: var(--purple);
 }
 
 /* --------------css for mobile----------------- */
@@ -378,7 +390,7 @@ nav .fa-solid {
     display: block;
   }
   nav ul {
-    background: #aa00ff;
+    background: var(--purple);
     position: fixed;
     top: 0;
     right: -200px;
@@ -429,7 +441,7 @@ nav .fa-solid {
 }
 
 #msg {
-  color: #aa00ff;
+  color: var(--purple);
   margin-top: -40px;
   display: block;
 }
@@ -452,7 +464,7 @@ nav .fa-solid {
 }
 
 .footer-text a i {
-  color: #aa00ff;
+  color: var(--purple);
 }
 
 .footer-icon a {
@@ -461,13 +473,13 @@ nav .fa-solid {
   justify-content: center;
   align-items: center;
   padding: 0.8rem;
-  background: #aa00ff;
+  background: var(--purple);
   border-radius: 0.8rem;
   transition: 0.5s;
 }
 
 .footer-icon a:hover {
-  box-shadow: 0 0 1rem #aa00ff;
+  box-shadow: 0 0 1rem var(--purple);
 }
 
 
@@ -546,7 +558,7 @@ nav .fa-solid {
 /* span---------------- */
 
 .colors {
-  color: #aa00ff;
+  color: var(--purple);
 }
 
 .footer-text i {
