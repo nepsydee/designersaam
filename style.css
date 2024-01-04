@@ -112,7 +112,7 @@ nav ul li a:hover::after {
   height: 100%;
   border-radius: 15px;
   margin-left: -100px;
-  margin-top: -170px;
+  margin-top: -160px;
 }
 .about-col-2 {
   flex-basis: 60%;
